@@ -1,0 +1,150 @@
+
+body{margin:0;
+padding: 0;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+background-color: rgb(4, 4, 117);
+}
+.hero{
+background-image: url("images/g.jpg");
+background-size:cover;
+background-position:center;
+width: 100%;
+position:relative;
+background-attachment: fixed;
+height: 250%;
+z-index:0;
+display: block;
+}
+.hero-overlay{
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    
+    background-color: rgba(30, 30, 117, 0.9);
+   
+    
+   
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+ /* start of desktop styles */
+
+ @media screen and (max-width: 991px) {
+    /* start of large tablet styles */
+    .hero {
+      min-width: 70%;
+      height: 320%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    /* start of medium tablet styles */
+    /* Adding a fixd/percentage min-width could ensure that the image doesn't get too small */
+    .hero {
+      min-width: 30%;
+    
+      height: 900%;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    /* start of phone styles */
+    /* It's possible to hide the image if the screen becomes too small */
+    .hero {
+      min-width: 10%;
+      height: 620%;
+    }
+}
+.cl
+
+{
+    background-color: rgba(0, 0, 90, 1.9);
+    
+    height: 50px;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.change
+{
+  background-image: url("images/q.jpg");
+}
+
+
+
+
+
+.login-form {
+  width: 370px;
+    margin: 10px auto;
+}
+  .login-form form {
+    margin-bottom: 15px;
+      background: #f7f7f7;
+      box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+      padding: 10px;
+  }
+  .login-form h2 {
+      margin: 0 0 15px;
+  }
+  .form-control, .btn {
+      min-height: 38px;
+      border-radius: 2px;
+  }
+  .btn {        
+      font-size: 15px;
+      font-weight: bold;
+  }
+
+
+
+
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  

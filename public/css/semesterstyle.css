@@ -1,0 +1,188 @@
+body{margin:0;
+    padding: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgb(4, 4, 117);
+    }
+    .hero{
+    background-image: url("images/a.jpg");
+    background-size:cover;
+    background-position:center;
+    width: 100%;
+    position:relative;
+    background-attachment: fixed;
+    height: 320%;
+    z-index:0;
+    display: block;
+    }
+    .hero-overlay{
+    
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        
+        background-color: rgba(30, 30, 117, 0.9);
+       
+        
+       
+        background-attachment: fixed;
+        height: 100%;
+        width: 100%;
+    
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     /* start of desktop styles */
+    
+     @media screen and (max-width: 991px) {
+        /* start of large tablet styles */
+        .hero {
+          min-width: 70%;
+          height: 320%;
+        }
+    }
+    
+    @media screen and (max-width: 767px) {
+        /* start of medium tablet styles */
+        /* Adding a fixd/percentage min-width could ensure that the image doesn't get too small */
+        .hero {
+          min-width: 30%;
+        
+          height: 900%;
+        }
+        .logoo{
+          width: 300px;
+        }
+    }
+    
+    @media screen and (max-width: 479px) {
+        /* start of phone styles */
+        /* It's possible to hide the image if the screen becomes too small */
+        .hero {
+          min-width: 10%;
+          height: 620%;
+        }
+        .logoo{
+          width: 300px;
+        }
+    
+    }
+    /* enddd */
+
+
+    /* notice start */
+    .notice{
+        border-radius: 5px;
+    }
+    /* notice end */
+
+
+
+    /* tam member */
+#team {
+    background: transparent;
+    padding: 20px 0;
+    
+  }
+  
+  #team .member {
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    /* border-radius: 50%; */
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  
+  #team .member .member-info {
+    opacity: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: 0.2s;
+  }
+  
+  #team .member .member-info-content {
+    margin-top: 50px;
+    transition: margin 0.2s;
+  }
+  
+  #team .member:hover .member-info {
+    background: rgba(255, 255, 255, 0.7);
+    opacity: 10;
+    transition: 0.4s;
+  }
+  
+  #team .member:hover .member-info-content {
+    margin-top: 0;
+    transition: margin 0.4s;
+  }
+  
+  #team .member h4 {
+    font-weight: 700;
+    margin-bottom: 2px;
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  #team .member span {
+    font-style: italic;
+    display: block;
+    font-size: 13px;
+    color: #fff;
+  }
+  
+  #team .member .social {
+    margin-top: 15px;
+  }
+  
+  #team .member .social a {
+    transition: none;
+    color: #fff;
+  }
+  
+  #team .member .social a:hover {
+    color: #007bff;
+  }
+  
+  #team .member .social i {
+    font-size: 18px;
+    margin: 0 2px;
+  }
+/* end team ,member */
+/* hover on technologies */
+.hov :hover{
+    background-image: linear-gradient(120deg,rgb(24, 21, 56),rgb(11, 9, 41));
+   
+
+}
+
+/* end */
+

@@ -1,0 +1,18 @@
+/* flip card */
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Lobster|Playfair+Display&display=swap');
+/* flip card end */
+.logocolor{
+    background: rgba(30, 30, 117, 0.9); 
+}
+.backcol{
+    background-color: #ecf0f1;
+}
+
+.subchange{
+    color:black;
+    
+}
+
+.cardf{
+    font-family: 'Crimson Text', serif;
+}

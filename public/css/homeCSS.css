@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Lobster|Playfair+Display&display=swap');
+.bgcolor{
+   background-color:  rgba(30, 30, 117, 0.9);
+
+}
+.con{
+    background-color:  rgba(30, 30, 117, 0.9);
+}
+.stylefonta{
+    font-family: 'Crimson Text', serif;
+}
+
+.conn{
+    border-radius: 7px;
+    background-color:  rgba(30, 30, 117, 0.9);
+}
+
+
+/* image and over end */
+
+/* start of desktop styles */
+    
+@media screen and (max-width: 991px) {
+    /* start of large tablet styles */
+    .hero {
+      min-width: 70%;
+      height: 320%;
+    }
+  
+}
+
+@media screen and (max-width: 767px) {
+    /* start of medium tablet styles */
+    /* Adding a fixd/percentage min-width could ensure that the image doesn't get too small */
+    .hero {
+      min-width: 30%;
+    
+      height: 700%;
+    }
+    .logoo{
+      width: 300px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    /* start of phone styles */
+    /* It's possible to hide the image if the screen becomes too small */
+    .hero {
+      min-width: 15%;
+      height: 470%;
+    }
+    .logoo{
+      width: 300px;
+    }
+
+
+}
+
+/* image and over end */
+
+.navrad{
+border-radius: 7px;
+}
+
+/* file upload start */
+.filechange{
+text-align: left;
+}
+/* file upload end */
+
+/* table start */
+.firstr{
+padding-top: 10px;
+padding-bottom: 10px;
+border-style: solid;
+border-width: 10px;
+border-radius: 5px;
+border-color: white;
+}
+
+.headtable{
+
+color: white;
+}
+
+.tablerad{
+border-radius: 7px;
+}
+/* table end */
